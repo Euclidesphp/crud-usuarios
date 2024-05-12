@@ -28,7 +28,7 @@ $usuarios = obtenerUsuarios();
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($usuarios as $usuario) : ?>
+            <?php foreach ($usuarios as $usuario)  ?>
                 <tr>
                     <td><?= htmlspecialchars($usuario['id_usuario']) ?></td>
                     <td><?= htmlspecialchars($usuario['nom_usuario']) ?></td>
